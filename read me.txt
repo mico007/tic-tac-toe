@@ -1,0 +1,26 @@
+# The way I approached the tic-tac-toe game challenge.
+
+Here is the link for tic-tac-toe game instructions “https://www.exploratorium.edu/brain_explorer/tictactoe.html” & 
+"https://www.quora.com/Is-there-a-way-to-never-lose-at-Tic-Tac-Toe"
+
+First of all, you run this URL “http://localhost:8181/Tic-Tac-Toe-API/tic-tac-toe/play” and pass the query string as “board”.
+
+The “board” parameter in query string should contain characters of length nine (9). 
+Means the “board” parameter should be nine (9) characters length with also empty spaces counted/included.
+
+The computer is represented by “o” character, a user is represented by “x” character and use plus symbol “+” to represent a space.
+ 
+Either player can play first. When a computer plays first, it plays in one of the lucky positions. 
+Lucky positions are the place/position/area which has high winning chances if it’s played into and they include
+ the left and right corner of the first row, the center of the second row, the left and right corner of the third row. 
+And a user can also play in one of the lucky positions or in other areas. 
+
+If a user plays first, a computer plays against him in one of the lucky positions. 
+But if they already occupied, it plays in other areas.
+
+Either player (“o” computer or user “x”) who first arrange together a triple character of same type, gets to win the game.
+I also implemented other logics like, if a user remains with one position to play into and win, the computer blocks him from winning by playing in that position. 
+But if there is a chance a computer also remains with one position/place to play into and win, it plays in that place/area/position instead of blocking a user to win. 
+Means it prioritizes to win instead of blocking a user.
+
+I deployed this tic-tac-toe game API on Heroku and here is the link “”.
