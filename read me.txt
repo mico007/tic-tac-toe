@@ -23,4 +23,4 @@ I also implemented other logics like, if a user remains with one position to pla
 But if there is a chance a computer also remains with one position/place to play into and win, it plays in that place/area/position instead of blocking a user to win. 
 Means it prioritizes to win instead of blocking a user.
 
-I deployed this tic-tac-toe game API on Heroku and here is the link “”.
+I deployed this tic-tac-toe game API on Heroku and here is the link “https://tic-tac-toe-api.herokuapp.com/Tic-Tac-Toe-API/tic-tac-toe/play”.
